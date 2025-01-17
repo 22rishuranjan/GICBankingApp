@@ -3,7 +3,7 @@ using static AwesomeGICBank.Program;
 
 namespace AwesomeGIC.BankingApp.Core.implementation;
 
-internal class AppTransaction : IAppTransaction
+public class AppTransaction : IAppTransaction
 {
     private readonly ILoggerService _loggerService;
 

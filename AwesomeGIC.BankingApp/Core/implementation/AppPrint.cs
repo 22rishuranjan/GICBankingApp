@@ -47,6 +47,7 @@ public class AppPrint : IAppPrint
             return;
         }
 
+
         decimal balance = 0;
          _loggerService.Log($"Account: {account}");
          _loggerService.Log("| Date     | Txn Id      | Type | Amount | Balance |");
